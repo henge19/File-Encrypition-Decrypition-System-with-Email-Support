@@ -217,12 +217,12 @@ namespace File_Encryption_Security_System
 
                 Credentials = new NetworkCredential()
                 {
-                    UserName = "programingLanguage.demo@gmail.com",
-                    Password = "Programing2021"
+                    UserName = "yourgmail",
+                    Password = "yourpassword"
                 }
             };
 
-            MailAddress FromEmail = new MailAddress("programingLanguage.demo@gmail.com", "Security");
+            MailAddress FromEmail = new MailAddress("*", "Security");
             MailAddress ToEmail = new MailAddress(txtEmail.Text, "User");
             Attachment attachment = new Attachment(@"D:\Desktop\test_of_Prj\Wanted!.jpg");
             MailMessage Message = new MailMessage()
@@ -262,12 +262,12 @@ namespace File_Encryption_Security_System
 
                 Credentials = new NetworkCredential()
                 {
-                    UserName = "programingLanguage.demo@gmail.com",
-                    Password = "Programing2021"
+                    UserName = "yourgmail",
+                    Password = "yourpassword"
                 }
             };
 
-            MailAddress FromEmail = new MailAddress("programingLanguage.demo@gmail.com", "Security");
+            MailAddress FromEmail = new MailAddress("yourgmail", "Security");
             MailAddress ToEmail = new MailAddress(EmailHolder.Text, "User");
             Attachment attachment = new Attachment(path.Text);  // ******tbPath uzantısı  eklenecek******            
             MailMessage Message = new MailMessage()
