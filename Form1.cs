@@ -217,8 +217,7 @@ namespace File_Encryption_Security_System
 
                 Credentials = new NetworkCredential()
                 {
-                    UserName = "yourgmail",
-                    Password = "yourpassword"
+                    
                 }
             };
 
@@ -262,8 +261,7 @@ namespace File_Encryption_Security_System
 
                 Credentials = new NetworkCredential()
                 {
-                    UserName = "yourgmail",
-                    Password = "yourpassword"
+                    
                 }
             };
 
